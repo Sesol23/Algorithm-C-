@@ -30,7 +30,7 @@ int main() {
 	
 	int cnt = 0;
 	for(int i = 1; i <= lastNum; i++) {
-		if(lastNum%i ==0) cnt++;
+		if(lastNum%i == 0) cnt++;
 	}
 	
 	printf("%d\n", cnt);
