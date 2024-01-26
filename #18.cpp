@@ -9,7 +9,7 @@ int main() {
 	
 	int noise;
 	int cnt = 0;
-	int max_cnt = -1;
+	int max_cnt = 0;
 	for(int i = 0; i < N; i++) {
 		scanf("%d", &noise);
 		if(noise > M) cnt++;
